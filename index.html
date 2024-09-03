@@ -8,21 +8,23 @@
     <!--css boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--css personal-->
-    <link rel="stylesheet" href="/assets/ccs/main.css">  <!--este es para unir los css-->
+    <link rel="stylesheet" href="./assets/css/main.css">  <!--este es para unir los css-->
 </head>
 <body>
 
     <nav>
         <div class="logo">
             <a href="#home">
-                <img src="./img/logo/images.png" alt="logo principal">
+                <img src="./assets/img/logo/images.png" alt="logo principal">
             </a>
         </div>
 
         <ul class="links-navegacion">
-            <li><a href="">Quienes somos</a></li>
-            <li><a href="">Preventa</a></li>
-            <li><a href="">Libros</a></li>
+            <li><a href="#home">Quienes somos</a></li>
+            <li><a href="#carousel">Recién llegados</a></li>
+            <li><a href="#libros">Libros</a></li>
+            <li><a href="#cambios-devoluciones">Cambios y Devoluciones</a></li>
+
         </ul>
         
         <a href="" class="btn"><button >Iniciar Sesión</button></a>
@@ -59,29 +61,29 @@
     </header>
 
 
-<section class="container">
+<section class="container"id="libros">
 
     <div class="row">
 
      
     <div class="col-3">
         <div class="card" style="width: 18rem;">
-          <img src="../assets/img/logo/3AVGMNTGCVEWNAVYV6AHORYVRA.jpg" class="card-img-top" alt="...">
+          <img src="./assets/img/3AVGMNTGCVEWNAVYV6AHORYVRA.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Mas vendidos</h5>
-            <p class="card-text"><P>Posiciona tu sito web y genera negocio organicamente en los motores de busqueda </P>.</p>
-            <a href="#" class="btn btn-primary">Ver más</a>
+            <h5 class="card-title">Trilogía Asesinato para Principiantes</h5>
+            <p class="card-text"><P>Incluye los libros: Asesinato Para Principiantes - Desaparicion Para Expertos - Venganza Para Víctimas </P>.</p>
+            <a href="#" class="btn btn-primary">Añadir al Carro</a>
           </div>
         </div>
       </div>
 
     <div class="col-3">
       <div class="card" style="width: 18rem;">
-        <img src="../assets/img/logo/novedadesa.png" class="card-img-top" alt="...">
+        <img src="./assets/img/novedadesa.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Novedades</h5>
-          <p class="card-text"><P>Explora nuestros libros más vendidos y descubre las lecturas que están capturando la atención de los lectores en todo el mundo.</P>.</p>
-          <a href="#" class="btn btn-primary">Ver más</a>
+          <h5 class="card-title">Alas de Sangre</h5>
+          <p class="card-text"><P>Violet Sorrengail creía que se uniría al Cuadrante de los Escribas para vivir una vida tranquila, sin embargo, por órdenes de su madre, debe unirse a los miles de candidatos que, en el Colegio de Guerra de Basgiath, luchan por formar parte de la élite de Navarre: el Cuadrante de los Jinetes de dragones.</P>.</p>
+          <a href="#" class="btn btn-primary">Añadir al Carro</a>
         </div>
       </div>
     </div>
@@ -89,37 +91,37 @@
 
     <div class="col-3">
       <div class="card" style="width: 18rem;">
-        <img src="../assets/img/logo/book-3731168-1280_1_621x621.jpeg" class="card-img-top" alt="...">
+        <img src="./assets/img/book-3731168-1280_1_621x621.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Libros de Poesía</h5>
-          <p class="card-text"><P>Sumérgete en la belleza de las palabras con nuestra colección de libros de poesía: un viaje lírico que toca el alma y despierta emociones.</P>.</p>
-          <a href="#" class="btn btn-primary">Ver más</a>
+          <h5 class="card-title">El nombre del Viento</h5>
+          <p class="card-text"><P>El nombre del viento es una novela de aventuras, de historias dentro de otras historias, de misterio, de amistad, de amor, de magia y de superación.</P>.</p>
+          <a href="#" class="btn btn-primary">Añadir al Carro</a>
         </div>
        </div>
      </div>
      <div class="col-3">
       <div class="card" style="width: 18rem;">
-        <img src="../assets/img/logo/socialmedia.jfif" class="card-img-top" alt="...">
+        <img src="./assets/img/ultima.PNG" class="card-img-top" alt="...">
         <div class="card-body">
-        <h5 class="card-title">Promociones</h5>
-        <p class="card-text"><P>Descubre nuestras promociones exclusivas: grandes descuentos en tus libros favoritos y ofertas especiales solo para ti.</P>.</p>
-          <a href="#" class="btn btn-primary">Ver más</a>
+        <h5 class="card-title">Desafiante</h5>
+        <p class="card-text"><P>La última entrega de la saga Escuadrón: Una chica viajará más allá de las estrellas para salvar la destrucción del mundo.</P>.</p>
+          <a href="#" class="btn btn-primary">Añadir al Carro</a>
         </div>
       </div>
     </div>
 </div>
 
   <!-- carrusel del bootstrap-->
-  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../assets/img/logo/antartik2.JPG" class="d-block w-100" alt="Libro 1">
+        <img src="./assets/img/antartik2.JPG" class="d-block w-100" alt="Libro 1">
       </div>
       <div class="carousel-item">
-        <img src="../assets/img/logo/antartik1.JPG" class="d-block w-100" alt="Libro 2">
+        <img src="./assets/img/antartik1.JPG" class="d-block w-100" alt="Libro 2">
       </div>
       <div class="carousel-item">
-        <img src="../assets/img/logo/antartik3.JPG" class="d-block w-100" alt="Libro 3">
+        <img src="./assets/img/antartik3.JPG" class="d-block w-100" alt="Libro 3">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -133,19 +135,15 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<section id="cambios-devoluciones" class="container mt-5">
+  <h2>Cambios y Devoluciones</h2>
+  <p>
+      En <strong>Entre Letras y Magia</strong>, puedes solicitar un cambio o anulación de tu pedido si el producto presenta fallas de origen o si no cumple con las características descritas en nuestro sitio web (Garantía Legal, explicada más abajo).
+  </p>
+  <p>
+      No obstante, la ley establece que los cambios por satisfacción, es decir, si un producto no cumple con tus expectativas, son opcionales según la política de cada tienda. Para ofrecerte una mejor experiencia de compra, <strong>Entre Letras y Magia</strong> cuenta con una garantía voluntaria llamada <strong>Garantía de Satisfacción</strong>, además de la garantía legal, con la cual puedes cambiar o solicitar la devolución de un producto dentro de los plazos indicados más abajo, siempre que se cumplan los requisitos de satisfacción garantizada.
+  </p>
+</section>
 
 
 
@@ -157,12 +155,10 @@
     </section>
     <footer class="bg-dark text-white text-center custom-footer">     
             <div class="footer-links">
-                <a href="#mas-vendidos">Más Vendidos</a> |
-                <a href="#novedades">Novedades</a> |
-                <a href="#libros-poesia">Libros de Poesía</a> |
-                <a href="#promociones">Promociones</a> |
-                <a href="#contacto">Contacto</a>        |
-                <a href="#Preventa">Preventa</a> 
+               <a href="#cambios-devoluciones">Cambios y Devoluciones</a> |
+                <a href="#home">Quienes somos</a> |
+                <a href="#libros">Libros</a> |
+                 <a href="#carousel">Recién llegados</a>   
             </div>
     
             <div class="redessociales">
